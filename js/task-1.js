@@ -12,5 +12,20 @@ const user = {
   premium: true,
 };
 
-const user.mood = 'happy';
+user.mood = 'happy';
 console.log(user);
+
+user.hobby = 'skydiving';
+console.log(user);
+
+user.premium = false;
+console.log(user);
+
+
+const entries = Object.entries(user);
+for (const entry of entries) {
+  const key = entry[0];
+  const value = entry[1];
+
+  console.table(`${key}: ${value}`);
+}
