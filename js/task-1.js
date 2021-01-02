@@ -12,6 +12,7 @@ const user = {
   premium: true,
 };
 
+
 user.mood = 'happy';
 console.log(user);
 
