@@ -28,5 +28,5 @@ for (const entry of entries) {
   const key = entry[0];
   const value = entry[1];
 
-  console.table(`${key}: ${value}`);
+  console.log(`${key}: ${value}`);
 }
