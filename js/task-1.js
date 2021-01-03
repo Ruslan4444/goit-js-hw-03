@@ -30,3 +30,4 @@ for (const entry of entries) {
 
   console.log(`${key}: ${value}`);
 }
+
